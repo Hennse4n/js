@@ -25,7 +25,6 @@ label{
 }
 
 input{
-    border-bottom: #ffe600;
     border-top: #41403f;
     border-left: #41403f;
     border-right: #41403f;
@@ -33,12 +32,18 @@ input{
     border-style: solid;
     color: #fff;
     margin: 5%;
+    transition: 1s;
+}
+
+input:hover{
+    border-bottom: #ffe600;
+    border-style: solid;
+    transition: 1s;
 }
 
 .bttn{
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
-    border-style: none;
     background: #ffe600;
 }
 
@@ -76,4 +81,16 @@ li{
     background-color: #ff0000;
     color: #fff;
     transition: 0.5s;
+}
+
+.imprimir{
+    position: absolute;
+    top: 70%;
+    left: 6.5%;
+}
+
+.save {
+    background-color: #ffe600;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
 }
