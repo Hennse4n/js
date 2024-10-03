@@ -1,0 +1,79 @@
+body{
+    background: #41403f;
+}
+
+#title{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffe600;
+}
+
+.left{
+    position: absolute;
+    float: left;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    top: 35%;
+    text-align: center;
+}
+
+label{
+    font-size: 40px;
+    color: #ffe600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+    border-bottom: #ffe600;
+    border-top: #41403f;
+    border-left: #41403f;
+    border-right: #41403f;
+    background: #41403f;
+    border-style: solid;
+    color: #fff;
+    margin: 5%;
+}
+
+.bttn{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: none;
+    background: #ffe600;
+}
+
+.right{
+    float: right;
+    display: flex;
+    flex-direction: inline;
+    margin-top: 7%;
+    margin-right: 10%;
+}
+
+.title-list{
+    color: #ffe600;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+li{
+    color: #ffe600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 2%;
+    list-style: circle;
+}
+
+.del{
+    position: absolute;
+    left: 80%;
+    background-color: #ffe600;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.5s;
+}
+
+.del:hover{
+    background-color: #ff0000;
+    color: #fff;
+    transition: 0.5s;
+}
